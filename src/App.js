@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import SignUpPage from './Pages/SignUpPage';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <SignUpPage />
   );
 }
 
