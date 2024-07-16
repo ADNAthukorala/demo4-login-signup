@@ -1,5 +1,6 @@
 import React from 'react';
 import './SignUpPage.css';
+import { Link } from 'react-router-dom';
 
 function SignUpPage() {
   return (
@@ -9,10 +10,10 @@ function SignUpPage() {
             <input type='email' placeholder='Email' />
             <input type='password' placeholder='Password' />
             <button type='submit'>Sign Up</button>
-            <p>Already have an account? <a href='/'>Sign In</a></p>
+            <p>Already have an account? <Link to='/'>Sign In</Link></p>
         </form>
     </div>
-  )
+  );
 }
 
 export default SignUpPage;
